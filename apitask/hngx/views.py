@@ -14,8 +14,8 @@ def get_info(request):
     current_time = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # Construct GitHub URLs
-    github_file_url = "https://github.com/username/repo/blob/main/file_name.ext"
-    github_repo_url = "https://github.com/username/repo"
+    github_file_url = "https://github.com/liferacer333/hngx-backend/blob/main/apitask/manage.py"
+    github_repo_url = "https://github.com/liferacer333/hngx-backend"
 
     # Create the JSON response
     response = {
