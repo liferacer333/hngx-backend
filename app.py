@@ -31,5 +31,3 @@ def get_info():
     }
 
     return jsonify(response)
-
-
