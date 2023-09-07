@@ -15,11 +15,11 @@ def get_info():
     # Get current UTC time
     current_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
-    # Construct GitHub URLs
+    #  GitHub URLs
     github_file_url = "https://github.com/liferacer333/hngx-backend/blob/main/app.py"
     github_repo_url = "https://github.com/liferacer333/hngx-backend"
 
-    # Create the JSON response
+    # JSON response
     response = {
         "slack_name": slack_name,
         "current_day": current_day,
@@ -32,5 +32,4 @@ def get_info():
 
     return jsonify(response)
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+
