@@ -17,7 +17,7 @@ def get_info():
 
     # Construct GitHub URLs
     github_file_url = "https://github.com/liferacer333/hngx-backend/blob/main/app.py"
-    github_repo_url = "https://github.com/username/hngx-backend"
+    github_repo_url = "https://github.com/liferacer333/hngx-backend"
 
     # Create the JSON response
     response = {
